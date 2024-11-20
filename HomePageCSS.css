@@ -1,0 +1,126 @@
+#dragdiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+}
+
+#dragdivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+#nav {
+    background-color: #003459;
+    margin: -10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    padding-bottom: 15px;
+    height: calc(16px + 6 * ((100vw - 320px) / 680));
+    /* border-style: outset;
+    border-width: 13px;
+    border-color: #007EA7; */
+}
+
+#nav a {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    text-decoration: none;
+    color: #FFFFFF;
+    height: inherit;
+}
+
+#nav a:hover {
+    color: #00171F;
+}
+
+#hiText {
+    font-size: 42px;
+    margin: 60px;
+    padding-top: 50px;
+    font-family: "Orbitron", sans-serif;
+}
+
+#SE {
+    display: flex;
+    margin: 0px;
+}
+
+#extra {
+    position: relative;
+    animation: slide-in 1s ease-in;
+    animation-delay: 0s;
+    left: 17px;
+    font-family: "Permanent Marker", sans-serif;
+}
+
+@keyframes slide-in {
+    from {
+        left: 200%;
+    }
+
+    to {
+        left: 17px;
+    }
+}
+
+p {
+    font-size: 40px;
+    padding: 30px;
+    padding-left: 60px;
+    padding-top: 0px;
+}
+
+#contactMe {
+    justify-self: center;
+    padding-bottom: 40px;
+}
+
+#contactMe a {
+    font-size: 60px;
+    background: none;
+    border: outset;
+    border-width: 10px;
+    border-color: #90E0EF;
+    background-color: #90E0EF;
+    color: #0e1111;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Permanent Marker", sans-serif;
+}
+
+#contactMe a:hover {
+    border-color: #00171F;
+    background-color: #00171F;
+    color: #FFFFFF;
+}
+
+.orbitron-font {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1;
+    font-style: normal;
+}
+
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    margin: 10px;
+    background-color: #00171F;
+    color: #FFFFFF;
+}
+
+h1 {
+    margin: 0px;
+}
