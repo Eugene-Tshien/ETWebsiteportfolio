@@ -10,41 +10,53 @@
     padding: 10px;
     cursor: move;
     z-index: 10;
-    background-color: #2196F3;
+    background-color: #00a8e8;
     color: #fff;
 }
 
 #nav {
-    background-color: #003459;
+    background-color: #00a8e8;
     margin: -10px;
     margin-bottom: 0px;
     padding: 10px;
     padding-bottom: 15px;
-    height: calc(16px + 6 * ((100vw - 320px) / 680));
-    /* border-style: outset;
-    border-width: 13px;
-    border-color: #007EA7; */
+    height: calc(36px + 6 * ((100vw - 320px) / 680));
 }
 
-#nav a {
+#navElem {
+    position: absolute;
+    right: 0px;
+    display: flex;
+}
+
+.roundedNav a {
     position: relative;
-    float: right;
-    margin-right: 20px;
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
     text-decoration: none;
     color: #FFFFFF;
     height: inherit;
 }
 
-#nav a:hover {
-    color: #00171F;
+.roundedNav {
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 0px;
 }
+
+.roundedNav:hover {
+    transition: all 0.7s ease;
+    background-color: #1160a8;
+}
+
 
 #hiText {
     font-size: 42px;
     margin: 60px;
     padding-top: 50px;
-    font-family: "Orbitron", sans-serif;
+    font-family: "DM Sans", sans-serif;
+    align-items: center;
 }
 
 #SE {
@@ -58,6 +70,7 @@
     animation-delay: 0s;
     left: 17px;
     font-family: "Permanent Marker", sans-serif;
+    bottom: 10px;
 }
 
 @keyframes slide-in {
@@ -75,36 +88,36 @@ p {
     padding: 30px;
     padding-left: 60px;
     padding-top: 0px;
+    font-family: "DM Sans", sans-serif;
 }
 
 #contactMe {
     justify-self: center;
     padding-bottom: 40px;
+    display: block;
 }
 
 #contactMe a {
+    border-radius: 30px;
     font-size: 60px;
     background: none;
-    border: outset;
-    border-width: 10px;
-    border-color: #90E0EF;
-    background-color: #90E0EF;
-    color: #0e1111;
+    background-color: #00a8e8;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 10px;
-    font-family: "Permanent Marker", sans-serif;
+    font-family: "DM Sans", sans-serif;
 }
 
 #contactMe a:hover {
-    border-color: #00171F;
-    background-color: #00171F;
-    color: #FFFFFF;
+    transition: all 0.5s ease;
+    background-color: #1160a8;
+    font-size: 80px;
 }
 
-.orbitron-font {
-    font-family: "Orbitron", sans-serif;
+.dm-sans-font {
+    font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 1;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -117,8 +130,9 @@ p {
 
 body {
     margin: 10px;
-    background-color: #00171F;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: "DM Sans", sans-serif;
 }
 
 h1 {
