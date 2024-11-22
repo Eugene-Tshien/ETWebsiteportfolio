@@ -14,13 +14,17 @@
     color: #fff;
 }
 
+
+
+
 #nav {
-    background-color: #00a8e8;
+    /* background-color: #00a8e8; */
     margin: -10px;
     margin-bottom: 0px;
     padding: 10px;
     padding-bottom: 15px;
-    height: calc(36px + 6 * ((100vw - 320px) / 680));
+    height: 1.7em;
+    font-size: 3vh;
 }
 
 #navElem {
@@ -31,7 +35,7 @@
 
 .roundedNav a {
     position: relative;
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+
     text-decoration: none;
     color: #FFFFFF;
     height: inherit;
@@ -39,7 +43,7 @@
 
 .roundedNav {
     border-radius: 30px;
-    padding: 10px;
+    padding: 1vh;
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 0px;
@@ -52,7 +56,7 @@
 
 
 #hiText {
-    font-size: 42px;
+    font-size: 4.9vh;
     margin: 60px;
     padding-top: 50px;
     font-family: "DM Sans", sans-serif;
@@ -84,11 +88,12 @@
 }
 
 p {
-    font-size: 40px;
+    font-size: 3.4vh;
     padding: 30px;
     padding-left: 60px;
     padding-top: 0px;
     font-family: "DM Sans", sans-serif;
+    color: #075773;
 }
 
 #contactMe {
@@ -99,7 +104,7 @@ p {
 
 #contactMe a {
     border-radius: 30px;
-    font-size: 60px;
+    font-size: 5vh;
     background: none;
     background-color: #00a8e8;
     color: #FFFFFF;
@@ -111,7 +116,7 @@ p {
 #contactMe a:hover {
     transition: all 0.5s ease;
     background-color: #1160a8;
-    font-size: 80px;
+    font-size: 7vh;
 }
 
 .dm-sans-font {
@@ -131,10 +136,34 @@ p {
 body {
     margin: 10px;
     background-color: #FFFFFF;
-    color: #000000;
+    color: #fcfffc;
     font-family: "DM Sans", sans-serif;
 }
 
 h1 {
     margin: 0px;
+}
+
+#background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: #3ea5ce;
+    z-index: -10;
+}
+
+#backgroundTri {
+    position: absolute;
+    left: 0px;
+    top: -60vh;
+    width: 0px;
+    height: 0px;
+    z-index: -9;
+    border-left: 0px solid transparent;
+    border-right: 85vw solid transparent;
+    border-bottom: 160.1vh solid #339fcd;
+    margin: 0px;
+    margin-left: 0px;
 }
