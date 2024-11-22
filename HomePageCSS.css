@@ -70,20 +70,22 @@
 
 #extra {
     position: relative;
-    animation: slide-in 1s ease-in;
+    animation: slide-in 0.6s ease-out;
     animation-delay: 0s;
-    left: 0.4em;
+    left: 0.5em;
     font-family: "Permanent Marker", sans-serif;
     bottom: 10px;
 }
 
 @keyframes slide-in {
     from {
-        left: 200%;
+        left: 80%;
+        opacity: 40%;
     }
 
     to {
-        left: 17px;
+        left: 0.5em;
+        opacity: 100%;
     }
 }
 
@@ -98,7 +100,8 @@ p {
 
 #contactMe {
     justify-self: center;
-    padding-bottom: 40px;
+    padding-bottom: 5vh;
+    padding-top: 2vh;
     display: block;
 }
 
