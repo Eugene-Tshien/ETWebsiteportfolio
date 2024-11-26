@@ -1,30 +1,10 @@
-#dragdiv {
-    position: absolute;
-    z-index: 9;
-    background-color: #f1f1f1;
-    border: 1px solid #d3d3d3;
-    text-align: center;
-}
-
-#dragdivheader {
-    padding: 10px;
-    cursor: move;
-    z-index: 10;
-    background-color: #00a8e8;
-    color: #fff;
-}
-
-
-
-
 #nav {
-    /* background-color: #00a8e8; */
     margin: -10px;
     margin-bottom: 0px;
     padding: 10px;
     padding-bottom: 15px;
     height: 1.7em;
-    font-size: 3vh;
+    font-size: calc(1.1vh + 1.2vw);
 }
 
 #navElem {
@@ -35,17 +15,16 @@
 
 .roundedNav a {
     position: relative;
-
     text-decoration: none;
     color: #FFFFFF;
     height: inherit;
 }
 
 .roundedNav {
-    border-radius: 30px;
+    border-radius: 2rem;
     padding: 1vh;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: calc(1.2rem + 1.4vw);
+    padding-right: calc(1.2rem + 1.4vw);
     margin-top: 0px;
 }
 
@@ -56,11 +35,14 @@
 
 
 #hiText {
-    font-size: 4.9vh;
-    margin: 60px;
-    padding-top: 50px;
+    font-size: calc(2vh + 1.5vw);
+    margin: 5vw;
+    margin-top: 0px;
+    padding-top: 1vh;
+    margin-bottom: 0px;
     font-family: "DM Sans", sans-serif;
     align-items: center;
+    overflow-wrap: anywhere;
 }
 
 #SE {
@@ -76,36 +58,44 @@
 }
 
 #blurb {
-    font-size: 3.4vh;
-    padding: 30px;
-    padding-left: 60px;
-    padding-top: 0px;
+    font-size: calc(1.4vh + 1vw);
+    margin-left: 5vw;
+    padding-top: calc(1.2vh + 0.8vw);
+    padding-bottom: 1.5vh;
     font-family: "DM Sans", sans-serif;
     color: #075773;
 }
 
+#blurb p {
+    margin: 0px;
+}
+
 #contactMe {
     justify-self: center;
-    margin-bottom: 3vh;
-    padding-top: 2vh;
+    padding-bottom: calc(4vh + 1vw);
+    padding-top: calc(4vh + 1vw);
     display: block;
 }
 
 #contactMe a {
     border-radius: 30px;
-    font-size: 5vh;
+    font-size: calc(3vh + 1.3vw);
     background: none;
     background-color: #00a8e8;
     color: #FFFFFF;
     text-decoration: none;
-    padding: 20px 60px 20px 60px;
+    padding: calc(1vh + 1vw) calc(2.5rem + 2vw) calc(1vh + 1vw) calc(2.5rem + 2vw);
     font-family: "DM Sans", sans-serif;
 }
 
 #contactMe a:hover {
     transition: all 0.5s ease;
     background-color: #1160a8;
-    font-size: 7vh;
+    font-size: calc(3.5vh + 1.8vw + 10px);
+}
+
+#expansion {
+    height: calc(13.5vh + 5.8vw + 10px);
 }
 
 .dm-sans-font {
@@ -132,6 +122,10 @@ body {
 
 h1 {
     margin: 0px;
+}
+
+p {
+    margin: 0px
 }
 
 #background {
@@ -166,15 +160,119 @@ h1 {
 }
 
 #restOfPage {
-    position: absolute;
-    top: 100%;
+    position: relative;
+    /* top: calc(100vh); */
     background-color: inherit;
-    height: 10000px;
+    /* height: 10000px; */
     margin-left: -10px;
+    margin-right: -10px;
 }
 
-#restOfPage p {
-    padding-left: 10px;
-    padding-right: 10px;
+
+#theGrey {
+    background-color: #eeeeee;
+
+}
+
+#theGrey p {
+    font-size: calc(1.4vh + 1vw);
+    color: #676767;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+
+}
+
+#testemonials {
+    position: relative;
+    height: 500px;
+    border-left: solid;
+    border-width: 2px;
+    border-color: black;
     color: black;
+    padding-left: 2vw;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
+}
+
+#backgroundTextTest {
+    position: absolute;
+    top: -8vh;
+    font-size: calc(11vh + 10vw);
+    width: 80%;
+    right: calc(-5vw);
+    opacity: 6%;
+    overflow: hidden;
+}
+
+#backgroundTextTest p {
+    overflow: hidden;
+}
+
+#backgroundTextTest.in-view {
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        top: -6vh;
+        opacity: 0%;
+    }
+
+    to {
+        top: -8vh;
+        opacity: 6%;
+    }
+}
+
+
+
+#contacts {
+    /* https://www.assetclass.com/ Do this for the contacts or maybe save it for teh projects*/
+    /* https://www.ohpd.net/ Look at teh lets connect button*/
+    position: relative;
+
+    border-right: solid;
+    border-width: 2px;
+    border-color: black;
+
+
+    height: 500px;
+    color: black;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
+}
+
+#backgroundTextContacts {
+    position: absolute;
+    top: -8vh;
+    font-size: calc(11vh + 10vw);
+    width: 100%;
+    left: calc(-5vw);
+    opacity: 6%;
+    overflow: hidden;
+}
+
+#backgroundTextContacts p {
+    overflow: hidden;
+}
+
+#backgroundTextContacts.in-view {
+    animation: example 1s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        top: -6vh;
+        opacity: 0%;
+    }
+
+    to {
+        top: -8vh;
+        opacity: 6%;
+    }
 }
