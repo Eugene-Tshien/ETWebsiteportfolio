@@ -4,6 +4,8 @@ body {
     color: #fcfffc;
     font-family: "DM Sans", sans-serif;
     font-size: 3.4vh;
+
+    overscroll-behavior-y: none;
 }
 
 h1 {
@@ -16,4 +18,5 @@ p {
 
 html {
     scroll-behavior: smooth;
+
 }
