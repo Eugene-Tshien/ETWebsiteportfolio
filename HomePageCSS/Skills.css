@@ -5,6 +5,7 @@
     background: #1160a8;
     padding-left: 18vw;
     padding-right: 18vw;
+    padding-bottom: 5vh;
 }
 
 .skillsRow {
@@ -28,8 +29,8 @@
 }
 
 .gridHolder {
-    padding-top: 200px;
-
+    padding-top: 20vh;
+    position: relative;
 }
 
 .languageLogos {
@@ -72,7 +73,7 @@
     position: absolute;
     top: -8vh;
     font-size: calc(11vh + 10vw);
-    right: calc(0px);
+    right: -18vw;
     opacity: 6%;
     overflow: hidden;
 }
@@ -80,4 +81,8 @@
 #backgroundTextLanguage p {
     overflow: hidden;
     user-select: none;
+}
+
+#backgroundTextLanguage.in-view {
+    animation: fadeIn 1.8s ease;
 }

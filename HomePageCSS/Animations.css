@@ -1,11 +1,23 @@
 @keyframes fadeIn {
     from {
-        top: -6vh;
+        top: 0vh;
         opacity: 0%;
     }
 
     to {
         top: -8vh;
+        opacity: 6%;
+    }
+}
+
+@keyframes fadeInForSkills {
+    from {
+        top: 12vh;
+        opacity: 0%;
+    }
+
+    to {
+        top: 3vh;
         opacity: 6%;
     }
 }
