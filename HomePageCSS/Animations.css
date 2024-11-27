@@ -12,12 +12,12 @@
 
 @keyframes fadeInForSkills {
     from {
-        top: 12vh;
+        top: -3.5vh;
         opacity: 0%;
     }
 
     to {
-        top: 3vh;
+        top: -11.5vh;
         opacity: 6%;
     }
 }

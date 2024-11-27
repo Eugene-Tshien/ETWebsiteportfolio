@@ -16,6 +16,11 @@
 
 }
 
+#skillsOneLiner {
+    position: relative;
+    top: 4.5vh;
+}
+
 .boxes {
     width: 450px;
 
@@ -29,7 +34,7 @@
 }
 
 .gridHolder {
-    padding-top: 20vh;
+    padding-top: 12vh;
     position: relative;
 }
 
@@ -71,7 +76,7 @@
 
 #backgroundTextLanguage {
     position: absolute;
-    top: -8vh;
+    top: -11.5vh;
     font-size: calc(11vh + 10vw);
     right: -18vw;
     opacity: 6%;
@@ -84,5 +89,5 @@
 }
 
 #backgroundTextLanguage.in-view {
-    animation: fadeIn 1.8s ease;
+    animation: fadeInForSkills 1.8s ease;
 }
