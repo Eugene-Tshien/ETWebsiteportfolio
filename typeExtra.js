@@ -1,6 +1,6 @@
 var i = 0;
 var txt = 'EXTRAORDINAIRE!';
-var speed = 65;
+var speed = 85;
 
 window.onload = function () { typeWriter() };
 

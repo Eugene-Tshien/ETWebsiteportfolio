@@ -1,0 +1,11 @@
+@keyframes fadeIn {
+    from {
+        top: -6vh;
+        opacity: 0%;
+    }
+
+    to {
+        top: -8vh;
+        opacity: 6%;
+    }
+}

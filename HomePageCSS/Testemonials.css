@@ -1,0 +1,33 @@
+#testemonials {
+    position: relative;
+    height: 500px;
+    border-left: solid;
+    border-width: 2px;
+    border-color: black;
+    color: black;
+    padding-left: 2vw;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#backgroundTextTest {
+    position: absolute;
+    top: -8vh;
+    font-size: calc(11vh + 10vw);
+    /* width: 80%; */
+    right: calc(0px);
+    opacity: 6%;
+    overflow: hidden;
+}
+
+#backgroundTextTest p {
+    overflow: hidden;
+    user-select: none;
+}
+
+#backgroundTextTest.in-view {
+    animation: fadeIn 1.8s ease;
+}

@@ -1,0 +1,83 @@
+#skills {
+    position: relative;
+    color: white;
+
+    background: #1160a8;
+    padding-left: 18vw;
+    padding-right: 18vw;
+}
+
+.skillsRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.boxes {
+    width: 450px;
+
+    margin-top: 3vh;
+    margin-left: 0.8vw;
+    margin-right: 0.8vw;
+
+    border-radius: 20px;
+
+    background: #3ea5ce;
+}
+
+.gridHolder {
+    padding-top: 200px;
+
+}
+
+.languageLogos {
+    width: 80px;
+    height: 80px;
+}
+
+.imageBoxDiv {
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 20px;
+    background-color: white;
+    width: 90px;
+    height: 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textBoxDivTitle {
+    font-size: 40px;
+    color: #fcffff;
+
+    margin-left: 25px;
+    margin-top: 12px;
+}
+
+.textBoxDivPara {
+    font-size: 18px;
+    color: #eeeeee;
+
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+
+#backgroundTextLanguage {
+    position: absolute;
+    top: -8vh;
+    font-size: calc(11vh + 10vw);
+    right: calc(0px);
+    opacity: 6%;
+    overflow: hidden;
+}
+
+#backgroundTextLanguage p {
+    overflow: hidden;
+    user-select: none;
+}

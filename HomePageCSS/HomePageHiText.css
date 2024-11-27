@@ -1,0 +1,63 @@
+#hiText {
+    font-size: calc(2vh + 1.5vw);
+    margin: 5vw;
+    margin-top: 0px;
+    padding-top: 1vh;
+    margin-bottom: 0px;
+    font-family: "DM Sans", sans-serif;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+#SE {
+    display: flex;
+    margin: 0px;
+}
+
+#extra {
+    position: relative;
+    left: 0em;
+    font-family: "Permanent Marker", sans-serif;
+    bottom: 0px;
+}
+
+#blurb {
+    font-size: calc(1.4vh + 1vw);
+    margin-left: 5vw;
+    padding-top: calc(1.2vh + 0.8vw);
+    padding-bottom: 1.5vh;
+    font-family: "DM Sans", sans-serif;
+    color: #075773;
+}
+
+#blurb p {
+    margin: 0px;
+}
+
+#contactMe {
+    justify-self: center;
+    padding-bottom: calc(4vh + 1vw);
+    padding-top: calc(4vh + 1vw);
+    display: block;
+}
+
+#contactMe a {
+    border-radius: 30px;
+    font-size: calc(3vh + 1.3vw);
+    background: none;
+    background-color: #00a8e8;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: calc(1vh + 1vw) calc(2.5rem + 2vw) calc(1vh + 1vw) calc(2.5rem + 2vw);
+    font-family: "DM Sans", sans-serif;
+}
+
+#contactMe a:hover {
+    transition: all 0.5s ease;
+    background-color: #1160a8;
+    font-size: calc(3.5vh + 1.8vw + 10px);
+}
+
+#expansion {
+    height: calc(13.5vh + 5.8vw + 10px);
+}
