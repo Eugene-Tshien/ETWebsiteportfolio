@@ -1,14 +1,22 @@
 #theGrey {
     background-color: #eeeeee;
-
+    position: relative;
 }
 
-#theGrey p {
+#aboutMeText {
     font-size: calc(1.4vh + 1vw);
     color: #676767;
     margin-left: 18vw;
     margin-right: 18vw;
-    padding-top: 7vh;
-    padding-bottom: 7vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
 
+#backgroundTextAbout {
+    position: absolute;
+    top: -6vh;
+    font-size: calc(11vh + 10vw);
+    right: calc(10px);
+    opacity: 16%;
+    color: black;
 }

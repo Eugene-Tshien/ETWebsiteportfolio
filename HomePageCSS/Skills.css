@@ -22,7 +22,7 @@
 }
 
 .boxes {
-    width: 450px;
+    width: 300px;
 
     margin-top: 3vh;
     margin-left: 0.8vw;
@@ -79,8 +79,10 @@
     top: -11.5vh;
     font-size: calc(11vh + 10vw);
     right: -18vw;
-    opacity: 6%;
+    opacity: 20%;
     overflow: hidden;
+
+
 }
 
 #backgroundTextLanguage p {

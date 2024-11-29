@@ -1,0 +1,88 @@
+#tools {
+    color: black;
+    display: block;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+}
+
+.toolAndText {
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 18vw;
+    padding-right: 18vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrapReverse {
+    flex-wrap: wrap-reverse;
+}
+
+.wrapForward {
+    flex-wrap: wrap;
+}
+
+.toolText {
+    width: 500px;
+    align-self: normal;
+}
+
+.toolTextHolder {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.toolTile {
+    justify-self: center;
+    top: 20px;
+}
+
+.expLvl {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-self: center;
+}
+
+.confidenceWord {
+    padding-right: 15px;
+}
+
+.goldStar {
+    width: 45px;
+    height: 45px;
+}
+
+.toolImg {
+    width: 288px;
+    height: 200px;
+}
+
+.toolImgDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 500px;
+
+
+    border-radius: 20px;
+    background-color: #1160a8;
+}
+
+.ImgHolder {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
