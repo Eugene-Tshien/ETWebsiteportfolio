@@ -20,3 +20,7 @@
     opacity: 16%;
     color: black;
 }
+
+#backgroundTextAbout.in-view {
+    animation: fadeInForAbout 1.8s ease;
+}

@@ -6,7 +6,7 @@
 
     to {
         top: -8vh;
-        opacity: 6%;
+        opacity: 16%;
     }
 }
 
@@ -19,5 +19,17 @@
     to {
         top: -11.5vh;
         opacity: 20%;
+    }
+}
+
+@keyframes fadeInForAbout {
+    from {
+        top: 0vh;
+        opacity: 0%;
+    }
+
+    to {
+        top: -6vh;
+        opacity: 16%;
     }
 }
